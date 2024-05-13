@@ -26,6 +26,11 @@ int main(int argc, char *argv[]){
 		r = _div(atof(a), atof(b));
 		printf("%lf",r);
 	}
+	else if (argc == 2 && strcmp(argv[1], "car") == 0) {
+        // Traiter le calcul du carré
+       	 	r = atof(argv[2]);
+        printf("Le carré de %lf est %lf\n", number, square(number));
+    }
 	else {printf("Erreur de parametres");}
 	}
 	else {printf("Erreur de parametres");}
